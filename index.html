@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+    <style>
+        /* Centrar todo el contenido usando Flexbox */
+        body {
+            display: flex;
+            flex-direction: column; /* Asegura que los elementos estén apilados verticalmente */
+            justify-content: center; /* Centra el contenido verticalmente */
+            align-items: center; /* Centra el contenido horizontalmente */
+            height: 100vh; /* Hace que el body ocupe toda la altura de la ventana */
+            margin: 0; /* Elimina márgenes por defecto */
+            font-family: Arial, sans-serif; /* Establece una fuente limpia */
+        }
+
+        header, main {
+            text-align: center; /* Centra el texto dentro del header y main */
+        }
+
+        img {
+            display: block; /* Hace que la imagen se comporte como un bloque */
+            margin: 20px auto; /* Añade un espacio alrededor de la imagen y la centra */
+            border-radius: 10px; /* Agrega bordes redondeados a las imágenes */
+        }
+
+        h1, h2 {
+            color: #333; /* Establece un color de texto oscuro para los encabezados */
+        }
+
+        p {
+            color: #555; /* Color de texto más claro para los párrafos */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi página web</h1>
+    </header>
+    <main>
+        <h2>Sobre mí</h2>
+        <p>Soy Emiliano,estudiante de TIC'S, en la UNAM.</p>
+        <img src="yo.jpg" width="200" height="200" alt="Imagen de Emiliano">
+        <p>Nacido en Chicago, Illinois, el 11 de enero del 2006, pero he vivido la mayor parte de mi vida en Obregón, Sonora.</p>
+        <h2>Mis hobbies</h2>
+        <p>Mis hobbies son la mecánica automotriz y la programación.</p>
+        <img src="gris.jpg" alt="Primer proyecto" width="300" height="200">
+        <p>Mi primer proyecto automotriz</p>
+
+        <h2>Enlace a mi proyecto en GitHub</h2>
+        <p>Puedes ver el código fuente de mi página web en mi repositorio de GitHub:</p>
+        <a href="https://github.com/EmRmz/mi-primer-pagina-web.git" target="_blank">
+            https://github.com/EmRmz/mi-primer-pagina-web.git
+        </a>
+    </main>
+</body>
+</html>
